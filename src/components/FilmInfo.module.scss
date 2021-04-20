@@ -1,0 +1,22 @@
+.Wrapper{
+  display: flex;
+  justify-content: center;
+}
+.FilmInfo {
+  width: 100%;
+  flex-wrap: wrap;
+  overflow: hidden;
+  text-decoration: none;
+  display: flex;
+  background-color: #d2d2d2;
+  border-radius: 40px;
+  max-width: 1000px;
+  margin: 10px;
+  .FilmInfoText{
+    margin: 5px 30px;
+  }
+}
+.img {
+  border-radius: 40px;
+  margin: 20px 20px 5px;
+}
